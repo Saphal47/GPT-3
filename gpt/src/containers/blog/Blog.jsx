@@ -14,10 +14,10 @@ We are blogging about it.</h1>
             <Article imgUrl={blog01} date="26 July 2023" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
         </div>
         <div className="gpt3__blog-container_groupB">
-            <Article imgUrl={blog02} date="26 July 2023" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
-            <Article imgUrl={blog03} date="26 July 2023" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
-            <Article imgUrl={blog04} date="26 July 2023" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
-            <Article imgUrl={blog05} date="26 July 2023" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
+            <Article imgUrl={blog02} date="24 Feb 2022" title="GPT-3 and OpenAI is the future.Let us explore how it is?"/>
+            <Article imgUrl={blog03} date="8 July 2022" title="Revolutionizing AI: The GPT-3 Architecture from OpenAI"/>
+            <Article imgUrl={blog04} date="14 March 2023" title="OpenAI GPT-3: Understanding the Architecture"/>
+            <Article imgUrl={blog05} date="26 July 2023" title="OpenAI GPT-3 Past, Present and Future of AI and NLP"/>
         </div>
       </div>
     </div>
