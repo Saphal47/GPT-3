@@ -3,20 +3,20 @@ import './features.css';
 import { Feature } from '../../components';
 const featuresData=[
   {
-    title:'Improving end distrusts instantly ',
-    text:'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title:'Conversational AI: ',
+    text:' GPT-3 can power chatbots and virtual assistants for natural and human-like interactions.'
   },
   {
-    title:'Become the tended active',
-    text:'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
+    title:'Educational Assistants',
+    text:'Design AI-powered educational assistants that help students with homework, explanations, and personalized learning paths.'
   },
   {
-    title:'Message or am nothing',
-    text:'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
+    title:'Virtual Simulation',
+    text:'Create virtual environments driven by GPT-3 to simulate real-world scenarios for training purposes, such as medical simulations or disaster response training.'
   },
   {
-    title:'Really boy law county',
-    text:'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
+    title:'Legal and Compliance',
+    text:'Assist legal professionals with contract review, compliance analysis, and legal document generation, reducing manual workload.'
   },
 ]
 
