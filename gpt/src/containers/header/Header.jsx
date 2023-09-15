@@ -2,8 +2,9 @@ import React from 'react';
 import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
 import './header.css';
-
+import { BrowserRouter,Routes,Link } from "react-router-dom";
 const Header = () => {
+
   return(
     <div className="gpt3__header section__padding" id="home">
       <div className="gpt3__header-content">
@@ -11,14 +12,18 @@ const Header = () => {
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
-        Yet bed any for travelling assistance indulgence unpleasing. 
-        Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
+        Building something amazing with GPT-3 from OpenAI can be an exciting and innovative endeavor. GPT-3, with its natural language understanding and generation capabilities, opens up a world of possibilities for creative and practical applications. 
+        Either an individual developer, part of a startup, or working in a large organization, GPT-3 is there to inspire you in your journey to harness its power.
         </p>
 
+        <BrowserRouter>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
-          <button type="button">Get Started</button>
+          <Link to="https://openai.com/blog/gpt-3-apps">
+            <button type="button" >Get Started</button>
+          </Link>
         </div>
+        </BrowserRouter>
 
         <div className="gpt3__header-content__people">
           <img src={people} />
